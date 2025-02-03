@@ -2,9 +2,6 @@ import BlockChain from "./BlockChain";
 import Transaction from "./Transaction";
 import Wallet from "./Wallet"
 
-// const mykey = ec.keyFromPrivate( localKey.PRIV );
-// const walletAddr = mykey.getPublic('hex');
-
 const httpPort: number = 3001;
 const p2pPort: number = 6001;
 
@@ -28,7 +25,7 @@ catch( e ){
     console.error(e)
 }
 
-// bjuCoin.mineCurrentTransaction(walletAddr)
+// titusCoin.mineCurrentTransaction(walletAddr)
 
-// console.log( JSON.stringify(bjuCoin, null, 2) )
-// console.log( bjuCoin.getBalance(walletAddr) );
+// console.log( JSON.stringify(titusCoin, null, 2) )
+// console.log( titusCoin.getBalance(walletAddr) );

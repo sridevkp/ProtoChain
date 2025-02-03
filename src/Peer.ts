@@ -68,7 +68,7 @@ class NetworkPeer {
         });
 
         this.app.post('/mineBlock', (req: Request, res: Response) => {
-            const newBlock: Block = new Block(Date.now(), null); // Replace with actual block mining logic
+            const newBlock: Block = new Block(Date.now(), null); 
             res.send(newBlock);
         });
 

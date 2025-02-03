@@ -41,7 +41,7 @@ class Transaction {
             return publicKey.verify(this.calculateHash(), this.signature);
         } catch (error) {
             console.error("Invalid public key:", error);
-            return false; // Return false if key parsing fails
+            return false; 
         }
     }
 }
