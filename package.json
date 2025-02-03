@@ -1,6 +1,32 @@
 {
+  "name": "biju-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node ./src/index.ts",
+    "build": "npx tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "crypto-js": "^4.2.0",
-    "elliptic": "^6.5.7"
+    "elliptic": "^6.6.1",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/elliptic": "^6.4.18",
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.14",
+    "typescript": "^5.7.3"
   }
 }

@@ -1,1 +1,1 @@
-"# Bju-coin" 
+# An attempt in building and understanding layer 1 blockchain infra
